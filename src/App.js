@@ -3,6 +3,7 @@ import "./App.css";
 import Navigation from "./Navigation.js";
 import Socials from "./Socials.js";
 import ProfilePic from "./images/ProfilePic.jpg";
+import Highlights from "./Highlights.js";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navigation />
       <section>
         <img src={ProfilePic}/>
-        {/* <Hightlights /> */}
+        <Highlights />
         <h3>About Me</h3>
         <p>
           Hello! Im Jess, nice to meet you! I’m an aspiring software developer
