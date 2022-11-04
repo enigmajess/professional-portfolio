@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 
 export default function Navigation() {
@@ -21,18 +22,18 @@ export default function Navigation() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" to="/">
                 Home
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link className="nav-link" to="/">
                 Projects
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link className="nav-link" to="/">
                 Blog
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link className="nav-link" to="/">
                 Contact Me
-              </a>
+              </Link>
             </div>
           </div>
         </div>
