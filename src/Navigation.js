@@ -25,13 +25,13 @@ export default function Navigation() {
               <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link>
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/projects">
                 Projects
               </Link>
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/blog">
                 Blog
               </Link>
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/contact">
                 Contact Me
               </Link>
             </div>
