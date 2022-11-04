@@ -21,7 +21,7 @@ export default function Socials() {
 
   
   return (
-    <div>
+    <div className="d-flex justify-content-center flex-row mb-3">
         {socialIcons}
     </div>
   )

@@ -5,6 +5,7 @@ import Challah from "./images/Challah.jpg";
 import Painting from "./images/Painting.jpg";
 import WeddingBridge from "./images/WeddingBridge.jpg";
 import WeddingLicense from "./images/WeddingLicense.jpg";
+import "./Highlights.css";
 
 
 export default function Highlights() {
@@ -37,12 +38,11 @@ export default function Highlights() {
 
   const Gallery = () => {
     return (
-      <AliceCarousel autoPlay autoPlayInterval={1000}items={items} />
+      <AliceCarousel mouseTracking autoPlay autoPlayInterval={500} animationDuration={500} items={items} />
     );
   };
-console.log(Gallery)
   return (
-    <div>
+    <div className="Highlights">
     <h2>Highlights</h2>
       <Gallery />
     </div>
