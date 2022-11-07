@@ -1,0 +1,10 @@
+.blog h1{
+    color: #6F473C;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
