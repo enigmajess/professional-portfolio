@@ -1,0 +1,41 @@
+.contact  {
+    color: #6F473C;
+    margin: 0 auto;
+   
+    
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #6F473C;
+    line-height: 1.5;
+    
+}
+
+.contact h3 {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.contact h1 {
+    font-weight: bold;
+
+}
+
+.profilePicContact {
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+.contactLinks {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

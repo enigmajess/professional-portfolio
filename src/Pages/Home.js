@@ -14,7 +14,7 @@ export default function Home() {
         <div className="aboutMe d-flex flex-column align-items-center mb-3">
           <h3>About Me</h3>
           <p>
-            Hello! Im Jess, nice to meet you! I’m an aspiring software developer
+            Hello! I'm Jess, nice to meet you! I'm an aspiring software developer
             and a major simulation gameplay fan. My grimmsnallygaster account is
             the best place to keep up with my gameplay content, and Enigma Jess
             for everyday living. Subscribe to my mailing list to stay up to date
