@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="Container row">
       <div className="col-6  d-flex align-items-center mb-3">
-        <img src={ProfilePic} className="profilePic" />
+        <img src={ProfilePic} className="profilePic" alt="" />
       </div>
       <div className="col-6">
         <Highlights />
