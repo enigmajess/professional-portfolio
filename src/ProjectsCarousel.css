@@ -1,6 +1,25 @@
 
 .carousel-indicators {
     margin: 0;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
+.carousel-inner{
+    padding: 20px;
+}
+
+.ProjectsCarousel, h3, p {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-light {
+    background-color: #94AA94;
+    color: #ffff;
+    
+}
+.btn-light:hover {
+    background-color: #ffff;
+    color: #94AA94;
+}
