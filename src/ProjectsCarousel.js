@@ -39,7 +39,7 @@ function ProjectsCarousel() {
           </a>
         </div>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={800}>
         <img
           src={JsWeatherApp}
           className="JsWeatherApp d-block w-100 h-400"
@@ -69,7 +69,7 @@ function ProjectsCarousel() {
           </a>
         </div>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={800}>
         <img
           src={ReactDictionary}
           className="ReactDictionary d-block w-100 h-400"

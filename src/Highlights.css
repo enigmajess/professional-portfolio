@@ -51,3 +51,27 @@ h2 {
 .alice-carousel__prev-btn-item {
     color: #94AA94 !important;
 }
+
+@media (max-width: 990px) {
+    img{ 
+        max-width: 100%;
+      max-height: 500px;
+        border-radius: 10px;
+        display: block;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .AliceCarousel {
+        display: flex;
+        display: block;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .aboutMe {
+        font-size: 20px;
+    }
+}

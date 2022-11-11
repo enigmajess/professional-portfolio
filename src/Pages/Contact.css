@@ -2,8 +2,9 @@
     color: #6F473C;
     margin: 0 auto;
    
-    
 }
+
+
 
 .contact a {
     text-decoration: none;
@@ -38,4 +39,53 @@
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+@media (max-width:766px) {
+    .profilePicContact {
+        max-width: 200px;
+        max-height: 300px;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    
+    
+    }
+
+    .contact {
+        margin: 0 auto;
+        display: flex;
+        
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    
+    .row {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+          }
+  
+
+    .contact a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #6F473C;
+        line-height: 1.5;
+        
+    }
+
+    .contact h1 {
+        font-weight: bold;
+        font-size: 25px;
+    
+    }
+
+    .contact h3 {
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 20px;
+    }
 }
